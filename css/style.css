@@ -1,5 +1,5 @@
 .hero {
-    background: blue url("images/blog-image-hero.jpg") center/cover;
+    background: black url("images/blog-image-hero.jpg") center/cover;
     color: white;
     padding: 1.25em;
 }
