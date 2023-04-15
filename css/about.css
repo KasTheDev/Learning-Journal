@@ -1,0 +1,75 @@
+.hero {
+    color: black; 
+} 
+
+.profile-img{
+    width: 50%;
+    padding-top: 1.625rem;
+    padding-left: 1.25rem;
+}
+
+.hero-main{
+    margin: 2.18em 0 3.1875em 0;
+}
+
+
+.recent-post{
+    text-align: center;
+    padding-bottom: 1.68em;
+    font-weight: bold;
+}
+
+
+
+@media(min-width: 480px){
+    
+    .profile-img{
+        width: 25%;
+    }
+}
+
+@media (min-width: 768px){
+    
+    .profile-img{
+        width: 11rem;
+        height: 11rem;;
+    }
+    
+    .hero-intro{
+        display: flex;
+        padding-top: 5em;
+    }
+    
+    .hero-intro-text{
+        margin-bottom: 3rem;
+        padding-left: 1.5rem;
+    }
+    
+    .recent-post{
+        font-size: 1.5rem;
+        grid-column: span 3;
+        margin-top: 4.56rem;
+    }
+    
+    .hero{
+        padding: 0 2%;
+    }
+    
+    .hero-date{
+        padding-top: 4.4rem;
+    }
+    
+    .hero-title{
+        font-size: 2.25rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .hero-title,
+    .hero-date,
+    .hero-main{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+}

@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+}
+
+header {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: auto auto 1fr auto 1fr;
+    justify-content: space-between;
+    padding: 1.25em 1.5em;
+}
+
+.logo-img {
+    width: 7vw;
+    margin-right: 1vw;
+    height: auto;
+}
+
+h1 {
+    font: 700 3.5vw 'Roboto', sans-serif;
+    grid-column: 3/4;
+    white-space: nowrap;
+}
+.nav {
+    font-size: 3.5vw;
+    list-style-type: none;
+    grid-column: 5/6;
+    align-self: center;
+    justify-self: end;
+    text-align: end;
+}
+.nav-list-item {
+    color: #0E0E0E;
+    font: 600 .75rem 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 1.25em;
+    white-space: nowrap;
+}
+.hero {
+    margin: 0;
+    /* color: black; */
+    margin: 0 1.25em; 
+}
+
+.hero-date {
+    font-size: .75rem;
+    padding-top: 5.5em;
+}
+
+.hero-title {
+    font: 700 2rem 'Roboto', sans-serif;
+    padding: .5em 0;
+}
+
+.hero-preview {
+    font-size: 1rem;
+    padding-bottom: 1.6em;
+}
+
+.blog-feed {
+    display: grid;
+    margin-top: 2.125em;
+    padding: 0 1.25em;
+}
+
+article {
+    margin-bottom: 2.5em;
+}
+
+img.blog-img {
+    margin-bottom: .875em;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.blog-date {
+    font: 400 .875rem 'Source Sans Pro', sans-serif;
+}
+
+.blog-title {
+    font: 700 1.5rem 'Roboto', sans-serif;
+    margin: .6em 0;
+}
+
+footer {
+    background-color:#202020;
+    color:#D7D7D7;
+    text-align: center;
+    padding: 2.25em .95em;
+    font-size: .75rem
+}
+
+@media(min-width: 480px){
+    .nav-list-item{
+        font-size: .875rem;
+    }
+    
+    .blog-feed{
+        padding: 0 5%;
+    }
+}
+
+@media (min-width: 768px){
+    
+    .nav-list-item{
+        font-size: 1rem;
+    }
+    
+    .blog-feed{
+        grid-template: auto / 1fr 1fr 1fr;
+        grid-gap: 1em;
+    }
+}

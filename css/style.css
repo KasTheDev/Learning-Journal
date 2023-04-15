@@ -1,0 +1,58 @@
+.hero {
+    background: blue url("images/blog-image-hero.jpg") center/cover;
+    color: white;
+    padding: 1.25em;
+}
+
+.featured-link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.featured-link:hover,
+.featured-link:focus{
+    text-decoration: underline;
+    color: #fcd686;
+}
+
+.view-more-btn,
+.view-less-btn {
+    display: block;
+    background-color: #fafafa;
+    text-decoration: none;
+    font: 700 .875rem 'Source Sans Pro', sans-serif;
+    border: none;
+    margin: 1.25em;
+    cursor: pointer;
+}
+
+.view-more-btn:hover,
+.view-more-btn:focus,
+.view-less-btn:hover,
+.view-less-btn:focus{
+    text-decoration: underline;
+}
+
+.hidden-articles-1,
+.hidden-articles-2,
+.hidden-articles-3{
+    display: none;
+}
+
+.view-less-btn{
+    display: none;
+}
+
+@media (min-width: 768px){
+
+    .view-less-btn{
+        margin-top: 1.9375em;
+        grid-column: span 3;
+    } 
+    
+    .view-more-btn{
+        margin-top: 1.9375em;
+        grid-column: span 3;
+    }
+/*  
+}

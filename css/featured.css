@@ -1,0 +1,48 @@
+.hero {
+    color: black;
+} 
+
+.hero-main{
+    margin: 2.18em 0 3.1875em 0;
+}
+
+.hero-img{
+    width: 100%;
+}
+
+.recent-post{
+    text-align: center;
+    padding-bottom: 1.68em;
+    font-weight: bold;
+}
+
+@media (min-width: 768px){
+    
+    .recent-post{
+        font-size: 1.5rem;
+        grid-column: span 3;
+        margin-top: 4.56rem;
+    }
+    
+    .hero{
+        padding: 0 2%;
+    }
+    
+    .hero-date{
+        padding-top: 4.4rem;
+    }
+    .hero-title{
+        font-size: 2.25rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .hero-title,
+    .hero-date,
+    .hero-preview,
+    .hero-main{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+}
